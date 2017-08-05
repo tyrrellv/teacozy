@@ -38,24 +38,22 @@ a {
 
 .large{
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
 }
 
-.mission{
-background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+.mission {
+display: flex;
 width: 1200px;
-height: 700px;
-}
-
-.content{
-margin: 0;
+margin: auto;
+height: 100px;
 background-color: black;
-width: 100%;
 }
 
-h2 {
-margin: 0;
-padding: 10px;
-color: white;
+.misson h2 h4 {
+display: flex;
+margin: auto;
+color: seashell;
+text-align: center;
 }
