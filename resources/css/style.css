@@ -63,7 +63,31 @@ text-align: center;
   text-align: center;
   margin: auto;
 }
+.teamonth{
+  width: 1000px;
+  color: seashell;
+  text-align: center;
+  padding-top: 20px;
+}
 
-.flex-item {
+.blitzrow{
+  display: inline-flex;
+  flex-direction: row;
+  width: 1000px;
+  align-items: center;
+  padding: 5px;
+}
 
+.berrypic{
+  display: block;
+  height: 200px;
+  padding: 10px;
+}
+.spiced{
+  width: 300px;
+  height: 200px;
+}
+.donuts{
+  width: 300px;
+  height: 200px;
 }
