@@ -47,13 +47,23 @@ a {
 display: flex;
 width: 1200px;
 margin: auto;
-height: 100px;
+height: 125px;
 background-color: black;
 }
 
-.misson h2 h4 {
+.misson {
 display: flex;
-margin: auto;
+margin: 0;
 color: seashell;
 text-align: center;
+}
+
+.flex-container {
+  color: seashell;
+  text-align: center;
+  margin: auto;
+}
+
+.flex-item {
+
 }
