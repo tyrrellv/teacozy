@@ -71,23 +71,36 @@ text-align: center;
 }
 
 .blitzrow{
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: 1000px;
   align-items: center;
   padding: 5px;
+  flex-grow: 3
 }
 
 .berrypic{
-  display: block;
+  display: flex;
   height: 200px;
+  width: 300px;
   padding: 10px;
 }
 .spiced{
-  width: 300px;
+  display: flex;
   height: 200px;
+  width: 300px;
+  padding: 10px;
 }
 .donuts{
-  width: 300px;
+display: flex;
+height: 200px;
+width: 300px;
+padding: 10px;
+}
+
+.threeinarow img {
+  display: inline-flex;
   height: 200px;
+  width: 300px;
+  padding: 10px;
 }
