@@ -92,3 +92,26 @@ text-align: center;
   text-align: center;
   padding: 5px;
 }
+
+.averow {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.twoinarow img {
+  display: inline-flex;
+  height: 200px;
+  padding: 10px;
+  width: 300;
+  text-align: center;
+}
+
+.twoinarow span {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
