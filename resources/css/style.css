@@ -8,14 +8,14 @@ body{
 }
 
 header{
-display: flex;
-width: 100%;
-position: fixed;
-z-index: 1;
-height: 69px;
-background-color: black;
-border-bottom: 1px solid seashell;
-align-items: center;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
 }
 header img{
   height: 50px;
@@ -43,31 +43,33 @@ a {
   height: 700px;
 }
 
+
 .mission {
-display: flex;
-width: 1200px;
-margin: auto;
-height: 125px;
-background-color: black;
+  display: block;
+  width: 1200px;
+  height: 125px;
+  background-color: black;
+  margin: auto;
 }
 
 .misson {
-display: flex;
-margin: 0;
-color: seashell;
-text-align: center;
+  display: flex;
+  color: seashell;
+  text-align: center;
 }
 
 .flex-container {
   color: seashell;
   text-align: center;
-  margin: auto;
+  width: 1200px;
 }
-.teamonth{
+
+.teamonth {
   width: 1000px;
   color: seashell;
   text-align: center;
   padding-top: 20px;
+  margin: 0;
 }
 
 .blitzrow{
@@ -76,8 +78,8 @@ text-align: center;
   width: 1000px;
   align-items: center;
   padding: 5px;
+  justify-content: center;
 }
-
 
 .threeinarow img {
   display: inline-flex;
@@ -106,7 +108,7 @@ text-align: center;
   display: inline-flex;
   height: 200px;
   padding: 10px;
-  width: 300;
+  width: 300px;
   text-align: center;
 }
 
@@ -114,4 +116,39 @@ text-align: center;
   display: block;
   text-align: center;
   padding: 5px;
+}
+
+
+
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  opacity: 1
+}
+
+.location h2 {
+  padding-top: 50px;
+  padding-bottom: 15px
+  align-items: center;
+}
+
+.shops {
+  display: inline-block;
+  margin-left: 40px;
+  background-color: black;
+  width: 300px;
+}
+
+.cozybottom {
+  margin:0;
+  padding-top: 90px;
+  text-align: center;
+  height: 200px;
+}
+
+footer {
+  padding-top: 65px;
+  text-align: left;
 }
